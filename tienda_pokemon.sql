@@ -51,7 +51,7 @@ CREATE TABLE `compras` (
   `fecha_compra` date NOT NULL,
   `valor_total` float NOT NULL,
   `direccion_correo` varchar(45) NOT NULL,
-  `id_usuario` int NOT NULL,
+  `id_usuarioo` int NOT NULL,
   `estado` enum('A','I') DEFAULT 'A',
   PRIMARY KEY (`id`),
   KEY `FK_id_usuario_idx` (`id_usuario`),
